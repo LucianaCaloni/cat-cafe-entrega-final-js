@@ -253,7 +253,7 @@ function getTotalPrice(array) {
   }
   return totalPrice;
 }
-///casi que funciona seguir viendo ma;ana
+///Comprar//
 function buy() {
   const comprar = document.getElementById("completarCompra");
 
