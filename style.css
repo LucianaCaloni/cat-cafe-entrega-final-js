@@ -1,0 +1,217 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  font-family: "Pacifico", cursive;
+}
+h1,
+h2 {
+  color: #374b73;
+}
+header {
+  background-image: url(./images/fondo/catcafe1.jpg);
+  background-attachment: fixed;
+  background-size: cover;
+  list-style: none;
+  text-decoration: none;
+}
+
+.header__nav ul {
+  display: flex;
+  list-style: none;
+  flex-flow: row;
+  flex-direction: row;
+  justify-content: right;
+}
+.header__nav li {
+  margin: 3%;
+  color: #ffafcc;
+  font-size: 1.5rem;
+}
+.header__nav a {
+  text-decoration: none;
+  color: #ffafcc;
+  font-size: 1.5rem;
+  padding: 5px 5px 5px 5px;
+  background-color: white;
+  border-radius: 10px;
+}
+.presentacion {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 5%;
+}
+.presentacion p {
+  font-size: 1.5rem;
+  text-align: center;
+  padding-left: 10rem;
+  padding-right: 10rem;
+}
+/* ///Staff de gatos/// */
+
+.staff__galeria {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+#staff h2 {
+  text-align: center;
+}
+.staff__galeria {
+  margin: 3rem;
+}
+#textoCards {
+  text-align: center;
+}
+#staff-gatos {
+  background-color: #ffafcc;
+}
+button {
+  color: white;
+  background-color: #374b73;
+}
+
+/* Productos */
+#productos-galeria{
+  background-color: bisque;
+  margin: 5rem;
+  border-radius: 1rem;
+}
+#productos-galeria h2,
+p {
+  text-align: center;
+  margin: 3rem;
+}
+
+.btn-dark {
+  color: black;
+}
+.table {
+  padding: 0;
+}
+.tablaCarrito {
+  display: flex;
+  flex-direction: column;
+}
+
+/* Formulario de Login */
+#formLogin {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 10rem;
+}
+
+/* Cafeteria.html */
+.cafeteria-fotos {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 5rem;
+  background-color: bisque;
+}
+.cafeteria-fotos h2 {
+  text-align: center;
+  color: #ffafcc;
+  background-color: #374b73;
+  margin-left: 10rem;
+  margin-right: 10rem;
+  padding: 2rem;
+  border-radius: 1rem;
+}
+.galeria img {
+  width: 80%;
+  margin: 3rem;
+  border-radius: 10px;
+}
+.menu {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 5rem;
+  background-color: bisque;
+}
+.menu h2 {
+  font-size: 3rem;
+  color: #ffafcc;
+  background-color: #374b73;
+  margin-left: 10rem;
+  margin-right: 10rem;
+  padding: 1.5rem;
+  border-radius: 1rem;
+}
+
+/* AJAX Y BOTONES DE CAFES */
+.info-cafe {
+  margin: 5rem;
+  text-align: center;
+  background-color: bisque;
+}
+.info-cafe h2 {
+  text-align: center;
+  color: #ffafcc;
+  background-color: #374b73;
+  margin-left: 10rem;
+  margin-right: 10rem;
+  padding: 2rem;
+  border-radius: 1rem;
+}
+.info-cafe ul {
+  display: inline-block;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  margin: 3rem;
+  text-align: center;
+}
+.cafes-latte {
+  flex-direction: column;
+
+  padding-bottom: 1rem;
+}
+#cafeLatte {
+  background-color: #ffafcc;
+}
+.cafes-matcha {
+  flex-direction: column;
+
+  padding-bottom: 1rem;
+}
+#matcha {
+  background-color: #ffafcc;
+}
+.cafes-vainilla {
+  flex-direction: column;
+
+  padding-bottom: 1rem;
+}
+#vainilla {
+  background-color: #ffafcc;
+}
+.cafes-mocca {
+  flex-direction: column;
+
+  padding-bottom: 1rem;
+}
+#mocca {
+  background-color: #ffafcc;
+}
+.cafes-chocolate {
+  flex-direction: column;
+
+  padding-bottom: 1rem;
+}
+#chocolate {
+  background-color: #ffafcc;
+}
+.cafes-frutilla {
+  flex-direction: column;
+
+  padding-bottom: 1rem;
+}
+#frutilla {
+  background-color: #ffafcc;
+}
