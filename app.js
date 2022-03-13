@@ -28,7 +28,7 @@ const products = [
     brand: "Model",
     price: 300,
     description: "Arena aglutinante",
-    img: "./images/productos/arenaAglutinante.jpg",
+    img: "../images/productos/arenaAglutinante.jpg",
   },
   {
     id: 1,
