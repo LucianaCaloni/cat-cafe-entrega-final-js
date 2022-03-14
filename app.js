@@ -41,7 +41,7 @@ const products = [
     id: 2,
     brand: "Pupis",
     price: 1500,
-    description: " Cama para gatos tipo almohada",
+    description: "Cama para gatos tipo almohada",
     img: "./images/productos/camagato2.jpg",
   },
   {
